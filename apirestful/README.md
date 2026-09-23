@@ -1,5 +1,3 @@
-## [1 - Express.js](./apirestful)
-
 # Como iniciar o projeto Express
 API RESTful feita com Express.js e MySQL para gerenciar um catálogo de filmes de cinema.
 
