@@ -1,15 +1,17 @@
-# API de Catálogo de Filmes
+## [1 - Express.js](./apirestful)
+
+## Como iniciar um projeto Express
 
 API RESTful feita com Express.js e MySQL para gerenciar um catálogo de filmes de cinema.
 
-## Tecnologias
+### Tecnologias
 
 - Node.js
 - Express
 - MySQL (mysql2)
 - dotenv
 
-## Como rodar
+### Como rodar
 
 1. Clone o repositório
 2. Instale as dependências:
@@ -36,7 +38,7 @@ API RESTful feita com Express.js e MySQL para gerenciar um catálogo de filmes d
    npm run dev
    \`\`\`
 
-## Rotas
+### Rotas
 
 | Método | Rota | Descrição |
 |---|---|---|
@@ -46,7 +48,7 @@ API RESTful feita com Express.js e MySQL para gerenciar um catálogo de filmes d
 | PUT | /filmes/:id | Atualiza um filme |
 | DELETE | /filmes/:id | Remove um filme |
 
-## Exemplo de corpo (POST/PUT)
+### Exemplo de corpo (POST/PUT)
 
 \`\`\`json
 {
